@@ -1,0 +1,8 @@
+from verilib import *
+
+output_file = 'output.txt'
+
+check_for_existing_solution_key()
+assert_linecount(output_file, 10000)
+assert_file_contents_hash_to(output_file, 'aa673c3280022492b795f88537a91e83504213170a5be53ca6ff53bdc482c7a6edca0acdaf8223016b06051aeeebca9318ab4b29c5504ed427caadf135098482')
+compute_code_for_file(output_file)

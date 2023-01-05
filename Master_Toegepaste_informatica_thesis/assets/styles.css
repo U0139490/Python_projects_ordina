@@ -1,0 +1,524 @@
+.js-plotly-plot .plotly .modebar {
+  padding-top: 5%;
+  margin-right: 3.5%;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.two.columns {
+  width: 16.25%;
+}
+
+.column,
+.columns {
+  margin-left: 0.5%;
+}
+
+
+.bare_container {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.dcc_control {
+  margin: 0;
+  padding: 5px;
+  width: calc(100%-40px);
+}
+
+.control_label {
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100%-40px);
+}
+
+.rc-slider {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container-display {
+  display: flex;
+}
+
+#finishButton{
+  margin-left: 45%;
+}
+#finishButton2{
+  margin-left: 45%;
+}
+#finishButton3{
+  margin-left: 45%;
+}
+#finishButton4{
+  margin-left: 45%;
+}
+
+#individual_graph,
+#aggregate_graph {
+  width: calc(100% - 30px);
+  position: absolute;
+}
+
+
+#graph1_tab1_div {
+  width: 51.5%;
+  position: relative;
+
+}
+
+ #graph2_tab1_div {
+  width: 40%;
+  position: relative;
+
+}
+
+#graph1_wine2_div {
+  width: 51.5%;
+  position: relative;
+
+}
+
+ #graph2_wine2_div {
+  width: 40%;
+  position: relative;
+
+}
+
+#graph1_wine3_div {
+  width: 51.5%;
+  position: relative;
+
+}
+
+ #graph2_wine3_div {
+  width: 40%;
+  position: relative;
+
+}
+
+#graph1_wine4_div {
+  width: 51.5%;
+  position: relative;
+
+}
+
+ #graph2_wine4_div {
+  width: 40%;
+  position: relative;
+
+}
+
+
+#div_barchar_sentiment{
+  width: calc(30%);
+  position: relative;
+
+}
+#div_radarchart{
+  width: calc(30%);
+  position: relative;
+
+}
+
+#sanky_div{
+  margin-left: -2px;
+  width: calc(93.7%);
+  position: relative;
+}
+
+
+#countGraphContainer {
+  margin-left: -5px;
+  flex: 5;
+  position: relative;
+}
+
+#searchWineDiv_tab1 {
+  position: relative;
+  width: 300px;
+}
+
+#header {
+  align-items: center;
+}
+
+#learn-more-button {
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  text-transform: none;
+  font-size: 15px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+#title {
+  text-align: center;
+}
+
+.mini_container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.pretty_container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+#section1 {
+  border-radius: 5px;
+  background-color: gray;
+  position: relative;
+  padding: 15px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+
+
+#right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#wells {
+  flex: 1;
+}
+
+#gas {
+  flex: 1;
+}
+
+#aggregate_data {
+  align-items: center;
+}
+
+#oil {
+  flex: 1;
+}
+
+#water {
+  flex: 1;
+}
+
+#tripleContainer {
+  display: flex;
+  flex: 3;
+}
+
+#mainContainer {
+  margin: 5% ;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainContainer2 {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainContainer3 {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainContainer4 {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#pie_graph > div > div > svg:nth-child(3) > g.infolayer > g.legend {
+  pointer-events: all;
+  transform: translate(30px, 349px);
+}
+
+
+
+.banner{
+  height: 75 px;
+  margin: -10px -10px ;
+  background-color:#AE1832;
+  border-radius:2px;
+}
+
+
+.banner h2{
+  color: white;
+  padding-top:10px;
+  margin-left:2%;
+  display: inline-block;
+}
+
+.banner Img{
+  position: relative;
+  float: right;
+  right: 10px;
+  height: 75px;
+}
+
+
+.banner2{
+  color:#586069;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top: 3px solid transparent !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom: 0px !important;
+  background-color: #F0F0F0;
+  padding: 12px !important;
+  font-family: "system-ui";
+  font-weight: bold;
+  font-size: 15px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+
+ .custom-tabs-container {
+  visibility: hidden;
+
+  /*width: 85%;*/
+}
+/*
+.custom-tabs {
+  border-top-left-radius: 3px;
+  background-color: #f9f9f9;
+  padding: 0px 24px;
+  margin-top:0.4px;
+  border-bottom: 1px solid #2A385B;
+
+} */
+
+
+/* .custom-tab {
+  color:#586069;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top: 3px solid transparent !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom: 0px !important;
+  background-color: #fafbfc;
+  padding: 12px !important;
+  font-family: "system-ui";
+  font-weight: bold;
+  font-size: 15px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.custom-tab--selected {
+  background-color: #f2f2f2 !important;
+  color: black;
+  box-shadow: 1px 1px 0px #f2f2f2;
+  border-left: 1px solid #2A385B !important;
+  border-right: 1px solid #2A385B !important;
+  border-bottom: 1px solid #f2f2f2 !important;
+  border-top: 1px solid #2A385B !important;
+} */
+
+
+.container:after, .row:after, .u-cf {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.consent_p {
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+.consent_p_answers{
+    margin: 0;
+  padding: 0;
+}
+
+#consent_form_card{
+  border: 1px solid black !important;
+
+}
+
+#div_in_card{
+  margin-left: 5px;
+}
+#consent_title{
+  text-align: center;
+}
+
+#mainConsent{
+  margin-top:5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#consent_list{
+  list-style-type: square;
+  margin-top:15px;
+}
+#consent_list2{
+  list-style-type: circle;
+  margin-top:3px;
+}
+
+.consent_english{
+  font-style: italic;
+  color:gray;
+}
+
+#consent_name{
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+#consent_agree_check{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#consent_button{
+  display:  inline-block;
+  float:  none;
+  text-align:  center;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 110px;
+  background-color: #f2f2f2;;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#tutorial_button{
+  display:  inline-block;
+  float:  none;
+  text-align:  center;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 110px;
+  background-color: #f2f2f2;;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 4px;
+  text-decoration: none;
+}
+#div_tutorial_button{
+  padding-bottom: 10px;
+}
+
+#form_button{
+  display:  inline-block;
+  float:  none;
+  text-align:  center;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 110px;
+  background-color: #f2f2f2;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+
+
+
+#movie_player{
+  margin-top: 0;
+
+}
+
+#mainTutorial{
+
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+Video{
+  width: 100%;
+}
+
+#error{
+  background-color: #DC3220;
+  padding: 2px;
+  border: 2px solid #DC3220;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 18px;
+  width: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#gender_input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#age_group_input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#p_form{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit_answer{
+  width:150px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.checked {
+  color: orange;
+}

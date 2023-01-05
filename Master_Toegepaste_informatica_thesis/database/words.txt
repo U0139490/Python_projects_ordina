@@ -1,0 +1,87 @@
+gustatory,deviant
+olfactory,Mad√®re
+olfactory,acetate
+gustatory,acid
+gustatory,alcohol
+visual,almond
+visual,alsmostColourless
+olfactory,ammonia
+olfactory,amylic
+olfactory,animal
+olfactory,anise
+olfactory,apple
+gustatory,aromatic
+olfactory,ascent
+gustatory,astringent
+gustatory,balanced
+gustatory,bitterness
+visual,brownRed
+olfactory,candy
+gustatory,chardApple
+olfactory,chimic
+visual,clear
+gustatory,coffee
+olfactory,cooked (oxidised +)
+olfactory,cookedFruits
+visual,dark
+gustatory,dilute
+olfactory,discrete
+olfactory,empyreumatic
+olfactory,englishCandy
+gustatory,ethanol
+gustatory,fat
+olfactory,fermentationAroma
+olfactory,flowery
+olfactory,fruity
+olfactory,strawberry
+olfactory,kiwi
+gustatory,greenApple
+olfactory,intensity
+gustatory,iodized
+olfactory,liquorice
+gustatory,maderized
+gustatory,metalic
+olfactory,milky
+olfactory,mineral
+olfactory,mop
+olfactory,mouldy
+gustatory,mushroom
+gustatory,oxidised
+visual,oxidised (tanning)
+gustatory,paper
+olfactory,patisserie
+olfactory,pear
+olfactory,pepper
+gustatory,persistent
+visual,pinkyWithYellowSparkles
+olfactory,plastic
+visual,purePink
+visual,pureRed (cherry)
+visual,purplish
+olfactory,quince
+olfactory,raspberry
+visual,redWithOrangeFringes
+olfactory,reduced
+olfactory,roasted
+gustatory,rot
+olfactory,rubber
+visual,salmonPink
+olfactory,socks
+gustatory,sparkling
+olfactory,spicy
+visual,strawYellowGoldYellow
+olfactory,sulphur
+olfactory,sulphurousAnhydric
+olfactory,sweat
+olfactory,sweet
+gustatory,sweetness
+gustatory,too acid
+gustatory,too astringent
+gustatory,too bitter
+visual,turbid
+olfactory,undergrowth
+olfactory,vegetal
+gustatory,ventilated
+olfactory,ventilated (oxidised)
+visual,veryLightYellowWithGreenSparkles
+gustatory,watery

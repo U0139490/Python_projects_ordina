@@ -1,0 +1,315 @@
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{fullpage}
+
+\usepackage{listings}
+\usepackage{color}
+
+\title{Python}
+\author{Serhat Erdogan}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color
+  basicstyle=\footnotesize,        % size of fonts used for the code
+  breaklines=true,                 % automatic line breaking only at whitespace
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  keywordstyle=\color{blue},       % keyword style
+  stringstyle=\color{mymauve},     % string literal style
+  showstringspaces=false
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+{\large
+	\vspace{1cm}
+	\begin{tabular}{llll}
+		Last Name: & \rule{4cm}{1pt} & First Name: & \rule{4.5cm}{1pt}  \\
+		&&& \\
+		Student number: & \rule{4cm}{1pt} & Name of course: & \rule{4.5cm}{1pt} \\
+	\end{tabular}
+}
+\medskip
+\medskip
+\medskip
+
+\section*{Exercise 1}
+\begin{lstlisting}[language=python]
+a = "5"
+b = 3
+print("I want ", a, "puppies and " + b, "kats!")
+\end{lstlisting}
+
+\section*{Exercise 2}
+\begin{lstlisting}[language=python]
+print(f'{(41 + 200) % 24}:00')
+
+\end{lstlisting}
+
+\section*{Exercise 3}
+\begin{lstlisting}[language=python]
+a = input("Give a number: ") #user gave in 7
+print(a)
+\end{lstlisting}
+
+\section*{Exercise 4}
+\begin{lstlisting}[language=python]
+def exercise4():
+    a = input("what's your firstname? ") #user gave in "Jef"
+    b = int(input("what's your age? ")) #user gave in 18
+
+    print(a + b)
+
+exercise4()
+\end{lstlisting}
+
+\section*{Exercise 5}
+\begin{lstlisting}[language=python]
+def exercise5():
+    amount = 99
+    a = amount // 15
+    b = amount % 15
+    c = a // 3
+    d = b % 3
+    print(a, b, c, d)
+
+exercise5()
+\end{lstlisting}
+
+\section*{Exercise 6}
+\begin{lstlisting}[language=python]
+def exercise6():
+    answer = input('Enter a string: ') #user gave in "I like programming!"
+    print(len(answer))
+
+exercise6()
+\end{lstlisting}
+
+\section*{Exercise 7}
+\begin{lstlisting}[language=python]
+def exercise7():
+    score = int(input()) #user gave in 10
+    if score <= 30:
+        letter_grade = 'Max score'
+    elif score >= 15:
+        letter_grade = 'You just passed!'
+    else:
+        letter_grade = 'failed!'
+    print(letter_grade)
+
+exercise7()
+\end{lstlisting}
+\newpage
+\section*{Exercise 8}
+\begin{lstlisting}[language=python]
+def exercise8():
+    number = int(input()) #user gave in 10
+    if number == 10:
+        print("A")
+    if number < 30:
+        print("B")
+    if number > 5:
+        print("C")
+    if number < 11:
+        print("D")
+    if number < 4:
+        print("E")
+    
+exercise8()
+\end{lstlisting}
+
+
+\section*{Exercise 9}
+\begin{lstlisting}[language=python]
+#In Python the precedence order is first NOT then AND and in last OR.
+def exercise9():
+    a = True
+    b = False
+    c = False
+    
+    if a or b and c:
+        print ("A")
+    else:
+        print ("B")
+
+exercise9()
+\end{lstlisting}
+\newpage
+\section*{Exercise 10}
+\begin{lstlisting}[language=python]
+#In Python the precedence order is first NOT then AND and in last OR.
+def exercise10():
+    a = True
+    b = False
+    c = False
+    
+    if not a or b:
+        print (1)
+    elif not a or not b and c:
+        print (2)
+    elif not a or b or not b and a:
+        print (3)
+    else:
+        print (4)
+
+exercise10()
+\end{lstlisting}
+
+\section*{Exercise 11}
+\begin{lstlisting}[language=python]
+def exercise11():
+    count = 1
+    for i in range(3): 
+        count += 1
+    print (count)
+
+exercise11()
+\end{lstlisting}
+
+\section*{Exercise 12}
+\begin{lstlisting}[language=python]
+def exercise12():
+    for i in range(3,10):
+        j = i + 2
+        print(j)
+
+exercise12()
+\end{lstlisting}
+
+\newpage
+\section*{Exercise 13}
+\begin{lstlisting}[language=python]
+def exercise13():
+    a = int(input()) #user gave in 0
+    b = int(input()) #user gave in 10
+    total = 0
+    while(a <= b):
+        total += a
+        a += 1
+    print(total)
+\end{lstlisting}
+
+\section*{Exercise 14}
+\begin{lstlisting}[language=python]
+def exercise14():
+    array = [1, 6.0, "9", 1.34, 32]
+    for i in array:
+        if isinstance(i, int): #isinstance checkt of de type van "i" gelijk is aan de meegeven type
+            print(i)
+\end{lstlisting}
+
+\section*{Exercise 15}
+\begin{lstlisting}[language=python]
+def exercise15():
+    a = []
+    for i in range(5): 
+        a.append(i)
+
+    b= []
+    for i in range(7): 
+        if i in a and i%2 == 0:
+            b.append(i)
+    print(b)
+    
+exercise15()
+\end{lstlisting}
+
+\begin{lstlisting}[language=python]
+#Bovenste coden kan op een beteren manier geprogrammeerd worden door gebruik te maken van list comprehension
+
+#data = [x for x in range(5)]
+#temp = [x for x in range(7) if x in data and x%2==0]
+#print(temp)
+\end{lstlisting}
+
+\newpage
+\section*{Exercise 16}
+\begin{lstlisting}[language=python]
+def exercise16():
+    temp = ['Geeks', 'for', 'Geeks']
+    array = []
+    for i in temp:
+        array.append(i[0].upper()) #upper() returend a copy of the string to uppercase
+    print(array)
+
+exercise16()
+\end{lstlisting}
+
+\section*{Exercise 17}
+\begin{lstlisting}[language=python]
+def exercise17():
+    n=5;
+    for i in range(n):
+        for j in range(i):
+            print ('* ', end="")
+        print('')
+
+    for i in range(n,0,-1):
+        for j in range(i):
+            print('* ', end="")
+        print('')
+        
+exercise17()
+\end{lstlisting}
+
+\section*{Exercise 18}
+\begin{lstlisting}[language=python]
+def exercise18():
+    array = []
+    for i in range(3):
+        sArray = []
+        for k in range(3):
+            sArray.append(i)
+            
+        array.append(sArray)
+
+    print(array)
+
+exercise18()
+\end{lstlisting}
+
+\newpage
+\section*{Exercise 19}
+\begin{lstlisting}[language=python]
+def exercise19(array2D,getal):
+    for i in array2D:
+        for k in i:
+            if k % getal == 0:
+                print(k)
+
+a = [[1,3,4], [12,9,45]]
+b = 3
+exercise19(a, b)
+\end{lstlisting}
+
+\section*{Exercise 20}
+\begin{lstlisting}[language=python]
+def exercise20(b):
+    newArray = []                
+    for i in b:                  
+        sArray = []              
+        for k in i:              
+            if( k !=10):         
+                sArray.append(k) 
+        newArray.append(sArray)
+
+    print(newArray)
+
+a = [[1,2,4,58 ], 
+     [3,10,5,12], 
+     [3,4,10,52]]
+
+exercise20(a)
+\end{lstlisting}
+
+\end{document}

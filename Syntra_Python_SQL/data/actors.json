@@ -1,0 +1,217 @@
+[
+  {
+    "movie_id": 2,
+    "person_id": 1,
+    "role_name": "director"
+  },
+  {
+    "movie_id": 2,
+    "person_id": 2,
+    "role_name": "Pete \"Maverick\" Mitchell"
+  },
+  {
+    "movie_id": 2,
+    "person_id": 3,
+    "role_name": "Nick \"Goose\" Bradshaw"
+  },
+  {
+    "movie_id": 1,
+    "person_id": 4,
+    "role_name": "director"
+  },
+  {
+    "movie_id": 1,
+    "person_id": 5,
+    "role_name": "Indiana Jones"
+  },
+  {
+    "movie_id": 1,
+    "person_id": 6,
+    "role_name": "Marion Ravenwood"
+  },
+  {
+    "movie_id": 1,
+    "person_id": 7,
+    "role_name": "Rene Belloq"
+  },
+  {
+    "movie_id": 3,
+    "person_id": 8,
+    "role_name": "director"
+  },
+  {
+    "movie_id": 3,
+    "person_id": 9,
+    "role_name": "Brian Cohen"
+  },
+  {
+    "movie_id": 3,
+    "person_id": 10,
+    "role_name": "High priest"
+  },
+  {
+    "movie_id": 3,
+    "person_id": 11,
+    "role_name": "Blood and Thunder prophet"
+  },
+  {
+    "movie_id": 3,
+    "person_id": 12,
+    "role_name": "Mr Big-Nose"
+  },
+  {
+    "movie_id": 3,
+    "person_id": 13,
+    "role_name": "Mr Cheeky"
+  },
+  {
+    "movie_id": 4,
+    "person_id": 14,
+    "role_name": "director"
+  },
+  {
+    "movie_id": 4,
+    "person_id": 15,
+    "role_name": "Vito Corleone"
+  },
+  {
+    "movie_id": 4,
+    "person_id": 16,
+    "role_name": "Kay Adams"
+  },
+  {
+    "movie_id": 4,
+    "person_id": 17,
+    "role_name": "Sonny"
+  },
+  {
+    "movie_id": 4,
+    "person_id": 18,
+    "role_name": "Tom Hagen"
+  },
+  {
+    "movie_id": 5,
+    "person_id": 19,
+    "role_name": "Director"
+  },
+  {
+    "movie_id": 5,
+    "person_id": 20,
+    "role_name": "Antonio Ricci"
+  },
+  {
+    "movie_id": 5,
+    "person_id": 21,
+    "role_name": "Bruno Ricci"
+  },
+  {
+    "movie_id": 5,
+    "person_id": 22,
+    "role_name": "Maria Ricci"
+  },
+  {
+    "movie_id": 6,
+    "person_id": 23,
+    "role_name": "director"
+  },
+  {
+    "movie_id": 6,
+    "person_id": 24,
+    "role_name": "Jim Garrison"
+  },
+  {
+    "movie_id": 6,
+    "person_id": 25,
+    "role_name": "Lee Harvey Oswald"
+  },
+  {
+    "movie_id": 6,
+    "person_id": 26,
+    "role_name": "Mr. X"
+  },
+  {
+    "movie_id": 7,
+    "person_id": 27,
+    "role_name": "director"
+  },
+  {
+    "movie_id": 7,
+    "person_id": 28,
+    "role_name": "Norman Bates"
+  },
+  {
+    "movie_id": 7,
+    "person_id": 29,
+    "role_name": "Marion Crane"
+  },
+  {
+    "movie_id": 7,
+    "person_id": 30,
+    "role_name": "Sam Loomis"
+  },
+  {
+    "movie_id": 7,
+    "person_id": 31,
+    "role_name": "Detective Milton Arbogast"
+  },
+  {
+    "movie_id": 8,
+    "person_id": 32,
+    "role_name": "director"
+  },
+  {
+    "movie_id": 8,
+    "person_id": 33,
+    "role_name": "Thomas Anderson/Neo"
+  },
+  {
+    "movie_id": 8,
+    "person_id": 34,
+    "role_name": "Morpheus"
+  },
+  {
+    "movie_id": 8,
+    "person_id": 35,
+    "role_name": "Trinity"
+  },
+  {
+    "movie_id": 10,
+    "person_id": 36,
+    "role_name": "Captain John H. Miller"
+  },
+  {
+    "movie_id": 10,
+    "person_id": 37,
+    "role_name": "Technical Sergeant Mike Horvath"
+  },
+  {
+    "movie_id": 10,
+    "person_id": 38,
+    "role_name": "Private First Class Richard Reiben"
+  },
+  {
+    "movie_id": 10,
+    "person_id": 39,
+    "role_name": "Private First Class James Francis Ryan"
+  },
+  {
+    "movie_id": 9,
+    "person_id": 40,
+    "role_name": "director"
+  },
+  {
+    "movie_id": 9,
+    "person_id": 41,
+    "role_name": "Blondie"
+  },
+  {
+    "movie_id": 9,
+    "person_id": 42,
+    "role_name": "Angel Eyes"
+  },
+  {
+    "movie_id": 9,
+    "person_id": 43,
+    "role_name": "Tuco Benedicto Pacífico Juan María Ramírez"
+  }
+]

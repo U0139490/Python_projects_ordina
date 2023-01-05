@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Tony Scott",
+    "birth_year": 1944,
+    "gender": "m"
+  },
+  {
+    "name": "Tom Cruise",
+    "birth_year": 1962,
+    "gender": "m"
+  },
+  {
+    "name": "Anthony Edwards",
+    "birth_year": 1962,
+    "gender": "m"
+  },
+  {
+    "name": "Steven Spielberg",
+    "birth_year": 1946,
+    "gender": "m"
+  },
+  {
+    "name": "Harrison Ford",
+    "birth_year": 1942,
+    "gender": "m"
+  },
+  {
+    "name": "Karen Allen",
+    "birth_year": 1951,
+    "gender": "f"
+  },
+  {
+    "name": "Paul Freeman",
+    "birth_year": 1943,
+    "gender": "m"
+  },
+  {
+    "name": "Terry Jones",
+    "birth_year": 1942,
+    "gender": "m"
+  },
+  {
+    "name": "Graham Chapman",
+    "birth_year": 1941,
+    "gender": "m"
+  },
+  {
+    "name": "John Cleese",
+    "birth_year": 1939,
+    "gender": "m"
+  },
+  {
+    "name": "Terry Gilliam",
+    "birth_year": 1940,
+    "gender": "m"
+  },
+  {
+    "name": "Michael Palin",
+    "birth_year": 1943,
+    "gender": "m"
+  },
+  {
+    "name": "Eric Idle",
+    "birth_year": 1943,
+    "gender": "m"
+  },
+  {
+    "name": "Francis Ford Coppola",
+    "birth_year": 1939,
+    "gender": "m"
+  },
+  {
+    "name": "Marlon Brando",
+    "birth_year": 1924,
+    "gender": "m"
+  },
+  {
+    "name": "Diane Keaton",
+    "birth_year": 1946,
+    "gender": "f"
+  },
+  {
+    "name": "James Caan",
+    "birth_year": 1940,
+    "gender": "m"
+  },
+  {
+    "name": "Robert Duvall",
+    "birth_year": 1931,
+    "gender": "m"
+  },
+  {
+    "name": "Vittorio De Sicca",
+    "birth_year": 1901,
+    "gender": "m"
+  },
+  {
+    "name": "Lamberto Maggioriani",
+    "birth_year": 1909,
+    "gender": "m"
+  },
+  {
+    "name": "Enzo Staiola",
+    "birth_year": 1939,
+    "gender": "m"
+  },
+    {
+    "name": "Lianella Carell",
+    "birth_year": 1927,
+    "gender": "f"
+  },
+  {
+    "name": "Oliver Stone",
+    "birth_year": 1946,
+    "gender": "m"
+  },
+  {
+    "name": "Kevin Costner",
+    "birth_year": 1955,
+    "gender": "m"
+  },
+  {
+    "name": "Gary Oldman",
+    "birth_year": 1958,
+    "gender": "m"
+  },
+  {
+    "name": "Donald Sutherland",
+    "birth_year": 1935,
+    "gender": "m"
+  },
+  {
+    "name": "Alfred Hitchcock",
+    "birth_year": 1901,
+    "gender": "m"
+  },
+  {
+    "name": "Anthony Perkins",
+    "birth_year": 1932,
+    "gender": "m"
+  },
+  {
+    "name": "Janet Leigh",
+    "birth_year": 1927,
+    "gender": "f"
+  },
+  {
+    "name": "John Gavin",
+    "birth_year": 1931,
+    "gender": "m"
+  },
+  {
+    "name": "Martin Balsam",
+    "birth_year": 1919,
+    "gender": "m"
+  },
+  {
+    "name": "Lana Wachowski",
+    "birth_year": 1965,
+    "gender": "f"
+  },
+  {
+    "name": "Keanu Reeves",
+    "birth_year": 1964,
+    "gender": "m"
+  },
+  {
+    "name": "Laurence Fishburne",
+    "birth_year": 1961,
+    "gender": "m"
+  },
+  {
+    "name": "Carrie-Anne Moss",
+    "birth_year": 1967,
+    "gender": "f"
+  },
+  {
+    "name": "Tom Hanks",
+    "birth_year": 1956,
+    "gender": "m"
+  },
+  {
+    "name": "Tom Sizemore",
+    "birth_year": 1961,
+    "gender": "m"
+  },
+  {
+    "name": "Edward Burns",
+    "birth_year": 1968,
+    "gender": "m"
+  },
+  {
+    "name": "Matt Damon",
+    "birth_year": 1970,
+    "gender": "m"
+  },
+  {
+    "name": "Sergio Leone",
+    "birth_year": 1929,
+    "gender": "m"
+  },
+  {
+    "name": "Clint Eastwood",
+    "birth_year": 1930,
+    "gender": "m"
+  },
+  {
+    "name": "Lee Van Cleef",
+    "birth_year": 1925,
+    "gender": "m"
+  },
+  {
+    "name": "Eli Wallach",
+    "birth_year": 1915,
+    "gender": "m"
+  }
+]

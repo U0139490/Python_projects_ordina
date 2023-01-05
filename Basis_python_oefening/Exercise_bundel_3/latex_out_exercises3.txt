@@ -1,0 +1,159 @@
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{fullpage}
+
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+
+\title{Python}
+\author{Serhat Erdogan}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color
+  basicstyle=\footnotesize,        % size of fonts used for the code
+  breaklines=true,                 % automatic line breaking only at whitespace
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  keywordstyle=\color{blue},       % keyword style
+  stringstyle=\color{mymauve},     % string literal style
+  showstringspaces=false
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+{\large
+	\vspace{1cm}
+	\begin{tabular}{llll}
+		Last Name: & \rule{4cm}{1pt} & First Name: & \rule{4.5cm}{1pt}  \\
+		&&& \\
+		Student number: & \rule{4cm}{1pt} & Name of course: & \rule{4.5cm}{1pt} \\
+	\end{tabular}
+}
+\medskip
+\medskip
+\medskip
+
+\section*{Exercise 1}
+
+\begin{lstlisting}[language=python]
+def exercise1():
+    array = [1, 2, 3, 4]
+    print(array[1])
+
+exercise1()
+\end{lstlisting}
+
+\section*{Exercise 2}
+\begin{lstlisting}[language=python]
+def exercise2():
+    array = ["A", 2, "B", 4]
+    print(array[3])
+
+exercise2()
+\end{lstlisting}
+\newpage
+\section*{Exercise 3}
+
+\begin{lstlisting}[language=python]
+def exercise3():
+    array = [[1], [2,3], [4]]
+    print(array[2])
+
+exercise3()
+\end{lstlisting}
+
+\section*{Exercise 4}
+
+\begin{lstlisting}[language=python]
+def exercise4():
+    array = [[1], [2,3], [4]]
+    for i in array:
+        print(array[i])
+
+exercise4()
+\end{lstlisting}
+\section*{Exercise 5}
+
+\begin{lstlisting}[language=python]
+def exercise5():
+    array = ["A", "B", "C", "D"]
+    for i in range(len(array)):
+        print(i)
+        
+exercise5()
+\end{lstlisting}
+\section*{Exercise 6}
+
+\begin{lstlisting}[language=python]
+def exercise6():
+    array = [1, "B", 4, "D"]
+    for i in range(len(array)):
+        if isinstance(array[i], int):
+            print(i)
+
+exercise6()
+\end{lstlisting}
+\newpage
+\section*{Exercise 7}
+
+\begin{lstlisting}[language=python]
+def exercise7():
+    array = [1, "B", 4, "D"]
+    for i in range(len(array)):
+        if isinstance(i, int):
+            print(i)
+
+exercise7()
+\end{lstlisting}
+\section*{Exercise 8}
+\begin{lstlisting}[language=python]
+def exercise8():
+    array = [[1, "B", 4, "D"], [1,2], [3,4,5]]
+    for i in array:
+        print(len(i))
+
+exercise8()
+\end{lstlisting}
+
+
+\section*{Exercise 9}
+
+\begin{lstlisting}[language=python]
+def exercise9():
+    array = [3]
+    array.append(4)
+    array.append(7)
+    array.append([1,2,3])
+    print(array)
+
+exercise9()
+\end{lstlisting}
+\section*{Exercise 10}
+
+\begin{lstlisting}[language=python]
+def exercise10():
+    array = [1,2,3,4]
+    array2 = [4,5,6,7]
+
+    for i in array:
+        if i <3:
+            print(i)
+    for i in array2:
+        if i >5 :
+            print(i)
+exercise10()
+\end{lstlisting}
+
+
+\end{document}

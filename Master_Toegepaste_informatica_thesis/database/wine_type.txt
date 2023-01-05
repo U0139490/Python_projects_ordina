@@ -1,0 +1,5 @@
+vintage.wine.type_id: 
+			* 1 : rode wijn
+			* 2 : witte wijn
+			* 3 : Mousserende wijn
+			* 4 : rose
